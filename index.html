@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Matteo Cantafio">
-    <meta name="description" content="Simon">
+    <meta name="description" content="Simon Says">
     <title>Simon</title>
     <!-- FontAwesome-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
@@ -18,6 +18,21 @@
 </head>
 
 <body>
+    <main>
+        <div id="countdown"></div>
+        <p>MEMORIZZA I NUMERI ENTRO IL TEMPO LIMITE</p>
+        <div class="random-number-container">
+        </div>
+        <div class="form-container d-none">
+            <input id="n1" type="number" min="1" max="99">
+            <input id="n2" type="number" min="1" max="99">
+            <input id="n3" type="number" min="1" max="99">
+            <input id="n4" type="number" min="1" max="99">
+            <input id="n5" type="number" min="1" max="99">
+            <button id="button" type="button">Verifica</button>
+        </div>
+        <p id="result"></p>
+    </main>
 </body>
 
 </html>

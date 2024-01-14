@@ -1,0 +1,70 @@
+/* CSS Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Generics */
+
+main {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+p {
+    font-size: 25px;
+}
+
+/* Countdown elements */
+
+#countdown {
+    font-size: 50px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.random-number-container {
+    height: 100px;
+    width: 420px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.d-none {
+    display: none;
+}
+
+.random-number {
+    font-size: 25px;
+}
+
+/* Form elements */
+
+.form-container {
+    margin-top: 20px;
+}
+
+.form-container input {
+    height: 30px;
+    width: 50px;
+}
+
+.form-container button {
+    height: 30px;
+    width: 50px;
+}
+
+/* Result Elements*/
+
+#result {
+    margin-top: 20px;
+    font-weight: bold;
+}

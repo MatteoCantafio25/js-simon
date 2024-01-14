@@ -1,0 +1,31 @@
+# ESERCIZIO SIMON SAYS
+
+- Recupero gli elementi in pagina
+- Creo una variabile per scegliere quanto deve durare il countdown
+- Stampo in pagina
+- Creo una costante per scegliere quanti numeri random generare
+- Creo una lista
+- Genero tot volte un numero random tramite un ciclo
+- Faccio in modo che non ci possano essere doppioni
+- Creo una variabile di appoggio per poi creare dei paragrafi
+- Genero tot paragrafi usando un ciclo
+- Monto il messaggio
+- Stampo in pagina i paragrafi creati
+- Creo una costante che genererà il countdown
+- Decido che il numero deve essere decrementato
+- Metto sotto condizione i secondi
+- Stoppo l'intervallo del countdown
+- Faccio scomparire i numeri random dallo schermo
+- Faccio comparire il form sullo schermo
+- Decremento il numero ogni secondo
+- Creo una variabile che tenga conto del punteggio dell'utente
+- Creo un array vuoto su cui appoggiarmi
+- Faccio reagire il bottone al click
+- Metto sotto condizione i valori che mette l'utente 
+- Aumento il punteggio dell'utente ogni volta che un nunneri viene indovinato
+- Inserisco nell'array il numero se è stato trovato
+- Se invece l'utente non indovina il numero segno in console che il numero non è stato trovato
+- Ultimi due procedimenti ripetuti per tutti e tot valori degli input
+- Metto sotto condizione la lunghezza dell'array per avere messaggi diversi in base ad essa
+- Stampo in pagina
+- Faccio scomparire i vari input e button per  evitare che l'utente provi più volte ad inserire numeri e inviare

@@ -53,7 +53,7 @@ for (let i = 0; i < randomNumbersToPut; i++) {
 }
 
 // STAMPO IN PAGINA I PARAGRAFI CREATI
-randomNumberContainer.innerHTML += pItems;
+randomNumberContainer.innerHTML = pItems;
 
 // CREO UNA COSTANTE CHE TRAMITE LA FUNZIONE SETINTERVAL MI PERMETTERA' DI AVERE UN COUNTDOWN
 const countDown = setInterval(() => {
